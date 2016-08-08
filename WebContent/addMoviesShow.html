@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h3>Add Movie Show</h3>
+	<form action="AddMoviesShow" method="post">
+		<table>
+			<tr>
+				<td class="f1_label">Movie Name :</td>
+				<td><input type="text" name="mname"></td>
+			</tr>
+			<tr>
+				<td class="f1_label">Theater Name :</td>
+				<td><input type="text" name="tname"></td>
+			</tr>
+			<tr>
+				<td class="f1_label">Total Seats Available :</td>
+				<td><input type="number" name="seats"></td>
+			</tr>
+			<tr>
+				<td class="f1_label">Start Time :</td>
+				<td><input type="time" name="st"></td>
+			</tr>
+			<tr>
+				<td class="f1_label">End Time :</td>
+				<td><input type="time" name="et"></td>
+			</tr>
+		</table>
+		<br>
+		<!-- <A HREF ="link.html">New User </A> -->
+		<br> <input type="submit" value="Add">
+
+	</form>
+	
+	<form action="DisplayMoviesShow" method="post">
+		<input type="submit" value="Display Show">
+	</form>
+
+</body>
+</html>
